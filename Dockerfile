@@ -21,7 +21,7 @@ RUN adduser -s /bin/true -u 1000 -D -h /app app \
 # happened to be checked in — no tag, no release, no signature, and a Go
 # toolchain in the build. The binary here is Cloudflare's own release, and
 # because it is statically linked there is nothing to copy but the file.
-FROM cloudflare/cloudflared:2026.10.6@sha256:004d843fa5fdc3103983fd580ee19fab4a8fa98add31f87249c1659e848c98e0 AS cf
+FROM cloudflare/cloudflared:2026.10.7@sha256:4955524aeaa379e154023d5a027c250f7b35041a2e7e950cf13f144bc9b9c5ba AS cf
 
 #
 # ---
